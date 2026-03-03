@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 <head>
   <meta charset="UTF-8">
@@ -10,16 +10,67 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-  <meta name="keywords" content="无人机反制,信号屏蔽器,信号干扰器,低空安全,炳光无线,drone jammer" />
+  <meta name="keywords"
+    content="drone countermeasure, signal jammer, low-altitude security, Bingguang Wireless, drone jammer, 无人机反制, 信号屏蔽器" />
+
+  <style>
+    .lang-switcher {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 100;
+    }
+
+    .lang-switcher a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 15px;
+      padding: 5px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      font-size: 0.9em;
+      transition: all 0.3s;
+    }
+
+    .lang-switcher a:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-color: #fff;
+    }
+
+    .lang-switcher a.active {
+      background: #fff;
+      color: #157878;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 42rem) {
+      .lang-switcher {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .lang-switcher a {
+        margin: 0 5px;
+      }
+    }
+  </style>
 
 </head>
 
 <body>
 
   <header class="page-header" role="banner">
+    <div class="lang-switcher">
+      <a href="/" {% if page.url=="/" or page.url=="/index.html" %}class="active" {% endif %}>English</a>
+      <a href="/zh/" {% if page.url contains "/zh/" %}class="active" {% endif %}>中文</a>
+      <a href="/ru/" {% if page.url contains "/ru/" %}class="active" {% endif %}>Русский</a>
+    </div>
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
       }}</h2>
+
     {% if site.github.is_project_page %}
     <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
     {% endif %}
