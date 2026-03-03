@@ -8,51 +8,170 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@500;700&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
   <meta name="keywords"
     content="drone countermeasure, signal jammer, low-altitude security, Bingguang Wireless, drone jammer, 无人机反制, 信号屏蔽器" />
 
   <style>
-    .lang-switcher {
+    :root {
+      --primary-color: #157878;
+      --secondary-color: #0d4d4d;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      --font-display: 'Outfit', sans-serif;
+    }
+
+    body {
+      font-family: var(--font-main);
+      color: #2c3e50;
+      line-height: 1.7;
+    }
+
+    .page-header {
+      background-image: linear-gradient(120deg, #155799, #159957);
+      padding: 5rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+    }
+
+    .page-header::before {
+      content: "";
       position: absolute;
-      top: 20px;
-      right: 20px;
-      z-index: 100;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
+      pointer-events: none;
+    }
+
+    .project-name {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: 3.5rem;
+      margin: 0.5rem 0;
+      letter-spacing: -1px;
+      color: #fff;
+    }
+
+    .project-tagline {
+      font-weight: 400;
+      font-size: 1.25rem;
+      opacity: 0.9;
+      max-width: 800px;
+      margin: 0 auto 2rem;
+      color: #fff;
+    }
+
+    .lang-switcher {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      z-index: 10;
+      position: relative;
     }
 
     .lang-switcher a {
-      color: #fff;
+      color: rgba(255, 255, 255, 0.8);
       text-decoration: none;
-      margin-left: 15px;
-      padding: 5px 10px;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 4px;
+      padding: 6px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 50px;
       background: rgba(255, 255, 255, 0.1);
-      font-size: 0.9em;
-      transition: all 0.3s;
+      font-size: 0.85rem;
+      font-weight: 600;
+      backdrop-filter: blur(5px);
+      transition: all 0.3s ease;
     }
 
     .lang-switcher a:hover {
       background: rgba(255, 255, 255, 0.2);
-      border-color: #fff;
+      color: #fff;
+      transform: translateY(-2px);
     }
 
     .lang-switcher a.active {
       background: #fff;
-      color: #157878;
-      font-weight: bold;
+      color: var(--primary-color);
+      border-color: #fff;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-content {
+      max-width: 54rem;
+      padding: 3rem 2rem;
+      margin: 0 auto;
+    }
+
+    .main-content h1,
+    .main-content h2,
+    .main-content h3 {
+      font-family: var(--font-display);
+      color: #1a2a3a;
+      margin-top: 2.5rem;
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 0.5rem;
+    }
+
+    .main-content img {
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      margin: 2rem 0;
+      max-width: 100%;
+    }
+
+    /* GitHub-style Hero enhancement */
+    .hero-logo {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 1.5rem;
+      display: block;
+      filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+      border-radius: 20%;
+      object-fit: cover;
+    }
+
+    .badge-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 1.5rem;
+    }
+
+    .site-footer {
+      border-top: 1px solid #eaecef;
+      padding-top: 2rem;
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #6a737d;
     }
 
     @media screen and (max-width: 42rem) {
-      .lang-switcher {
-        position: static;
-        text-align: center;
-        margin-bottom: 20px;
+      .project-name {
+        font-size: 2.2rem;
       }
 
-      .lang-switcher a {
-        margin: 0 5px;
+      .project-tagline {
+        font-size: 1rem;
+      }
+
+      .page-header {
+        padding: 4rem 1rem;
+      }
+
+      .hero-logo {
+        width: 90px;
+        height: 90px;
       }
     }
   </style>
@@ -67,28 +186,28 @@
       <a href="/zh/" {% if page.url contains "/zh/" %}class="active" {% endif %}>中文</a>
       <a href="/ru/" {% if page.url contains "/ru/" %}class="active" {% endif %}>Русский</a>
     </div>
-    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
-      }}</h2>
 
-    {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-    {% endif %}
-    {% if site.show_downloads %}
-    <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-    <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-    {% endif %}
+    <img src="https://rf.sz-bgwx.com/wp-content/uploads/2026/01/anti-drone.jpg" alt="Logo" class="hero-logo">
+
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.description }}</h2>
+
+    <div class="badge-row">
+      <img src="https://img.shields.io/badge/Coverage-All--band-blue?style=flat-square&logo=signal" alt="Coverage">
+      <img src="https://img.shields.io/badge/Stability-Military--Grade-orange?style=flat-square&logo=shield"
+        alt="Stability">
+      <img src="https://img.shields.io/badge/Tech-DDS--Sweeping-green?style=flat-square&logo=cpu" alt="Tech">
+      <img src="https://img.shields.io/badge/Distance-Up--to--5KM-red?style=flat-square&logo=target" alt="Distance">
+    </div>
   </header>
 
   <main id="content" class="main-content" role="main">
     {{ content }}
 
     <footer class="site-footer">
-      {% if site.github.is_project_page %}
-      <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>
-        is maintained by <a href="https://rf.sz-bgwx.com/">炳光无线</a>.</span>
-      {% endif %}
-      <span class="site-footer-credits">版权所有 <a href="https://rf.sz-bgwx.com/">rf.sz-bgwx.com</a>.</span>
+      <span class="site-footer-owner">Maintained by <a href="https://rf.sz-bgwx.com/">Bingguang Wireless</a>.</span>
+      <span class="site-footer-credits">Copyright © 2026 <a href="https://rf.sz-bgwx.com/">rf.sz-bgwx.com</a>. All
+        rights reserved.</span>
     </footer>
   </main>
 </body>
