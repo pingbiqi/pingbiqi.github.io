@@ -79,4 +79,7 @@
 *咨询工程部门 | 部署装备*
 
 ---
+---
 *© 2026 深圳市炳光无线科技有限公司 版权所有 // 密级：公开*
+
+<!-- Keywords: 手机信号屏蔽器, 无人机屏蔽器, 无线话筒屏蔽器, gps屏蔽器, 无线图传, 信号压制, 反无人机系统, 电子对抗, Cell phone signal jammer, Drone jammer, Wireless microphone jammer, GPS jammer, Wireless video transmission, RF suppression, Anti-drone system, Electronic countermeasures, Подавитель БПЛА, Подавитель сигналов, Inhibidor de señal, Inhibidor de drones, ドローンジャマー, 휴대폰 신호 차단기, 드론 재머, Handy-Störsender, Drohnen-Störsender, Brouilleur de téléphone portable, Brouilleur de drone -->
