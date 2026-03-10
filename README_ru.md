@@ -9,7 +9,7 @@
 ![Технологии](https://img.shields.io/badge/Технологии-DDS_сканирование-green?style=for-the-badge&logo=cpu)
 ![Дальность](https://img.shields.io/badge/Дальность-До_5_КМ-red?style=for-the-badge&logo=target)
 
-[English](README.md) | [中文](README_zh.md) | Русский
+[English](README_en.md) | [中文](README.md) | Русский
 
 </div>
 

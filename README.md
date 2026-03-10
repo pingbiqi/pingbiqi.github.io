@@ -1,71 +1,85 @@
 <div align="center">
 
-<img src="https://rf.sz-bgwx.com/wp-content/uploads/2026/01/anti-drone-banner.jpg" width="600" alt="Bingguang Wireless Hero">
+<img src="https://rf.sz-bgwx.com/wp-content/uploads/2026/01/anti-drone-banner.jpg" width="600" alt="炳光无线">
 
-# Bingguang Wireless: Full-Band Drone Countermeasure Systems
+# 炳光无线 (SZ-BGWX)：全链路无线电解决方案
 
-![Coverage](https://img.shields.io/badge/Coverage-All--band-blue?style=for-the-badge&logo=signal)
-![Stability](https://img.shields.io/badge/Stability-Military--Grade-orange?style=for-the-badge&logo=shield)
-![Tech](https://img.shields.io/badge/Tech-DDS--Sweeping-green?style=for-the-badge&logo=cpu)
-![Distance](https://img.shields.io/badge/Distance-Up--to--5KM-red?style=for-the-badge&logo=target)
+![覆盖范围](https://img.shields.io/badge/覆盖-全频段-blue?style=for-the-badge&logo=signal)
+![稳定性](https://img.shields.io/badge/稳定-军工级-orange?style=for-the-badge&logo=shield)
+![技术](https://img.shields.io/badge/技术-主动电子对抗-green?style=for-the-badge&logo=cpu)
+![定制](https://img.shields.io/badge/服务-深度定制-red?style=for-the-badge&logo=target)
 
-English | [中文](README_zh.md) | [Русский](README_ru.md)
+[English](README_en.md) | 中文 | [Русский](README_ru.md)
 
 </div>
 
 ---
 
-`March 2, 2026`
+**图传 · 屏蔽 · 数传 · 定制**
 
-If you're looking for the most effective drone countermeasure system, this guide will help you understand the latest RF suppression technology and avoid common pitfalls. With professional RF suppression tools, even non-technical personnel can achieve precise interception of DJI, FPV, and remote-control aircraft to protect your airspace.
+深耕工业级无线通信领域，提供包括**超远距离图传、多频段屏蔽器、高速数传电台及非标定制遥控器**的专业级装备。主动电子对抗与全链路无线电解决方案的领先者。
 
-## 🌍 The Significance of Low-Altitude Security
+## 🚀 部署系统与核心服务
 
-Many "B2B review sites" recommend cheap modules and generic handheld jammers. These solutions often have impressive specifications on paper but fail in real-world scenarios, especially against modern DJI video transmission. "High power" and "military-grade" are often just marketing gimmicks for devices that freeze or suffer severe power degradation during unauthorized intrusions. **Always check actual test data when choosing low-altitude defense equipment.**
+### 1. 高清影像传输 | COFDM 工业级无线图传
+- 专为无人机及复杂环境设计。
+- 支持 **1080P 高清视频超低延迟传输**。
+- 视距距离（LOS）可达 **50km+**。
 
-The reason many get scammed is a misunderstanding of analog interference vs. digital frequency sweeping. 99% of cheap jammers use mere noise coverage. Since **drone communication protocols have upgraded to frequency-hopping**, manufacturers must invest in R&D to suppress true unauthorized flights.
+### 2. 数据链系统 | W-TR400 高速数传电台
+- 高吞吐量、低误码率的战术级数据通信。
+- 支持 **FHSS 跳频抗干扰** 及 **AES-256 加密**。
 
-> - The most stable approach today is using a countermeasure device with **DDS (Direct Digital Synthesis) sweeping protocol**. It **dynamically tracks and covers the drone's frequency-hopping points**, tricking the aircraft into thinking it's in a radio dead zone, thereby triggering an automatic landing or return-to-home protocol.
-> - The core of this technology lies in a high-performance **PA (Power Amplifier)** and precise frequency control. Bingguang Wireless (rf.sz-bgwx.com) projects interference signals vertically via wideband high-linearity power amplifiers to clear the airspace.
+### 3. 区域电子压制 | B-JX500 多频段物理屏蔽器
+- 全频段覆盖，有效阻断 2G/3G/4G/5G/WiFi 及各类遥控频率。
+- 保障核心要地（园区、场馆、边境）安全。
 
-## Supported Countermeasure Methods
+### 4. 专业控制终端 | 定制战术遥控器方案
+- 支持多通道、长续航及协议深度定制。
+- 广泛应用于无人平台、特种机器人控制。
 
-We offer various form factors, including:
-- Countermeasure guns
-- Fixed interference towers
-- Vehicle-mounted jammers
-- Handheld portable units
-- Backpacks
-- Radar-linked automatic defense systems
+### 5. 特种反制 | 高性能 EOD 排爆屏蔽系统
+- 大功率背负式模块化设计，快速部署。
+- 有效切断爆炸物射频引信控制。
 
-All function on the same primary principle: emitting electromagnetic waves stronger than the drone's remote control signal to bypass its receiving link via RF suppression.
-
----
-
-### [Bingguang Wireless](https://rf.sz-bgwx.com) - Premier Full-Band Radio Security Solutions
-
-Bingguang Wireless provides stable, high-power signal suppression against various frequency-hopping drones, including the full DJI series, FPVs, and DIY racing drones, while protecting the core area's electromagnetic environment.
-
-<div align="center">
-  <img src="https://rf.sz-bgwx.com/wp-content/uploads/2026/01/bgwx-main.jpg" width="400" alt="Equipment Display">
-</div>
-
-Covering frequencies from 433MHz to 6GHz, users can customize over 10 independent suppression channels for oil parks or border patrols to quickly clear the airspace.
-
-Bingguang Wireless stands out with its excellent RF design (high-gain cascaded PA, VSWR standing wave protection mechanism), making it the top choice for industrial-grade countermeasures.
-
-**High cost-effectiveness and extreme durability** make it ideal for large-scale networking. A single linked system can coordinate dozens of defense towers simultaneously.
-
-<div align="center">
-  <img src="https://rf.sz-bgwx.com/wp-content/uploads/2026/01/bgwx-arch.jpg" width="400" alt="System Architecture">
-</div>
-
-Beyond manual operation, Bingguang Wireless integrates seamlessly with detection radars and photoelectric systems via API (TCP/UDP, RS485).
-
-Its **massive cooling redundancy supports continuous full-power operation without throttling**, ensuring high signal flatness to handle hostile drone swarms effectively.
+### 6. 专业定制 | 定制化射频前端模块
+- 提供功率放大器（PA）、滤波器等核心模块的深度研发与生产服务。
+- 满足各类特种需求。
 
 ---
 
-For more details, visit our official website: [rf.sz-bgwx.com](http://rf.sz-bgwx.com)
+## ⚙️ 技术规格 (SZ-BGWX)
 
-<!-- Keywords: cell phone jammer, drone jammer, wireless microphone jammer, GPS jammer, wireless video transmission, RF suppression, anti-drone system, electronic countermeasures, 手机信号屏蔽器, 无人机屏蔽器, 无线话筒屏蔽器, gps屏蔽器, 无线图传, 信号压制, 反无人机系统, 电子对抗, Подавитель БПЛА, Подавитель сигналов, Inhibidor de drones, ドローンジャマー, 드론 재머, Handy-Störsender, Brouilleur de drone -->
+详细作战效能与技术指标。
+
+| 装备类别 | 参数项 | 规格指标 |
+| :--- | :--- | :--- |
+| **射频压制设备**<br>*(背负式/车载式)* | 频段覆盖范围 (Frequency Range) | 20MHz - 6000MHz (支持频段定制) |
+| | 射频输出功率 (RF Power) | 总功率最高达 1000W |
+| | 有效干扰距离 (Jamming Range) | 50米 - 500米 (取决于目标信号环境强度) |
+| | 天线类型 (Antenna) | 全向天线 / 高增益定向天线 |
+| **战术数据链电台**<br>*(Tactical Data Link)* | 工作频段 (Operating Band) | UHF / L-Band / S-Band |
+| | 数据吞吐率 (Data Rate) | 最高保障 100 Mbps (自适应调整) |
+| | 通信传输距离 (Link Distance) | 10公里 - 100公里 (视距 LOS) |
+| | 加密协议 (Encryption) | AES-256 标准 / 支持非标加密算法 |
+
+> 📥 **获取技术规格：下载完整技术白皮书 [PDF]**
+
+---
+
+## 📞 安全加密通信信道 / 联系方式
+
+- **Telegram**: [@your_id](https://t.me/your_id)
+- **微信 (WeChat)**: `bgwx-luocan`
+- **WhatsApp**: International Line
+- **Email**: `support@sz-bgwx.com`
+
+**安全加密通信信道已连接** 🟢
+
+*咨询工程部门 | 部署装备*
+
+---
+---
+*© 2026 深圳市炳光无线科技有限公司 版权所有 // 密级：公开*
+
+<!-- Keywords: 手机信号屏蔽器, 无人机屏蔽器, 无线话筒屏蔽器, gps屏蔽器, 无线图传, 信号压制, 反无人机系统, 电子对抗, Cell phone signal jammer, Drone jammer, Wireless microphone jammer, GPS jammer, Wireless video transmission, RF suppression, Anti-drone system, Electronic countermeasures, Подавитель БПЛА, Подавитель сигналов, Inhibidor de señal, Inhibidor de drones, ドローンジャマー, 휴대폰 신호 차단기, 드론 재머, Handy-Störsender, Drohnen-Störsender, Brouilleur de téléphone portable, Brouilleur de drone -->
