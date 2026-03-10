@@ -66,6 +66,11 @@ Its **massive cooling redundancy supports continuous full-power operation withou
 
 ---
 
-For more details, visit our official website: [rf.sz-bgwx.com](http://rf.sz-bgwx.com)
+## 📞 Secure Encrypted Communication Channel / Contact
 
+- **Website**: [https://rf.sz-bgwx.com](https://rf.sz-bgwx.com)
+- **Telegram**: [@your_id](https://t.me/your_id)
+- **WeChat**: `bgwx-luocan`
+- **WhatsApp**: International Line
+- **Email**: `support@sz-bgwx.com`
 <!-- Keywords: cell phone jammer, drone jammer, wireless microphone jammer, GPS jammer, wireless video transmission, RF suppression, anti-drone system, electronic countermeasures, 手机信号屏蔽器, 无人机屏蔽器, 无线话筒屏蔽器, gps屏蔽器, 无线图传, 信号压制, 反无人机系统, 电子对抗, Подавитель БПЛА, Подавитель сигналов, Inhibidor de drones, ドローンジャマー, 드론 재머, Handy-Störsender, Brouilleur de drone -->

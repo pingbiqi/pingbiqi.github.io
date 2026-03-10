@@ -66,6 +66,11 @@ Bingguang Wireless выделяется своей превосходной ко
 
 ---
 
-Для получения более подробной информации посетите наш официальный сайт: [rf.sz-bgwx.com](http://rf.sz-bgwx.com)
+## 📞 Безопасный зашифрованный канал связи / Контакты
 
+- **Веб-сайт**: [https://rf.sz-bgwx.com](https://rf.sz-bgwx.com)
+- **Telegram**: [@your_id](https://t.me/your_id)
+- **WeChat**: `bgwx-luocan`
+- **WhatsApp**: International Line
+- **Email**: `support@sz-bgwx.com`
 <!-- Keywords: Подавитель БПЛА, Подавитель сигналов мобильных телефонов, Подавитель беспроводных микрофонов, GPS-подавитель, Беспроводная передача видео, Универсальный сервис для беспроводных устройств, РФ подавление, Антидроновая система, Радиоэлектронная борьба (РЭБ), cell phone jammer, drone jammer, wireless microphone jammer, GPS jammer, wireless video transmission, RF suppression, anti-drone system, electronic countermeasures, 手机信号屏蔽器, 无人机屏蔽器, 无线话筒屏蔽器, gps屏蔽器, 无线图传, 信号压制, 反无人机系统, 电子对抗, Inhibidor de drones, ドローンジャマー, 드론 재머, Handy-Störsender, Brouilleur de drone -->

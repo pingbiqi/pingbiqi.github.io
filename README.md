@@ -69,6 +69,7 @@
 
 ## 📞 安全加密通信信道 / 联系方式
 
+- **官网 (Website)**: [https://rf.sz-bgwx.com](https://rf.sz-bgwx.com)
 - **Telegram**: [@your_id](https://t.me/your_id)
 - **微信 (WeChat)**: `bgwx-luocan`
 - **WhatsApp**: International Line
